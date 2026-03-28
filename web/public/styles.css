@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, "Segoe UI", Roboto, sans-serif;
+  line-height: 1.45;
+  margin: 0;
+  padding: 1rem 1.25rem 2rem;
+  max-width: 44rem;
+  margin-inline: auto;
+  color: #1a1a1a;
+  background: #f6f6f4;
+}
+
+header {
+  margin-bottom: 1.5rem;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 0 0 0.25rem;
+  font-weight: 650;
+}
+
+.tagline {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+h2 {
+  font-size: 1.1rem;
+  margin: 1.25rem 0 0.5rem;
+  font-weight: 600;
+}
+
+section {
+  margin-bottom: 1.25rem;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#fetchBtn {
+  padding: 0.45rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border: 1px solid #333;
+  background: #fff;
+  border-radius: 4px;
+}
+
+#fetchBtn:hover {
+  background: #eee;
+}
+
+.status {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0;
+}
+
+.status.error {
+  color: #a30;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.card {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  padding: 0.75rem 1rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+  margin: 0 0 0.35rem;
+  font-weight: 600;
+}
+
+.card .meta {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0.15rem 0;
+}
+
+.card a {
+  font-size: 0.9rem;
+  word-break: break-all;
+}
+
+.card .row-actions {
+  margin-top: 0.5rem;
+}
+
+.card button.secondary {
+  padding: 0.3rem 0.65rem;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border: 1px solid #666;
+  background: #fafafa;
+  border-radius: 4px;
+}
+
+.card button.secondary:hover {
+  background: #eee;
+}
+
+.hidden {
+  display: none;
+}
+
+.score-section .score-form label {
+  display: block;
+  margin: 0.35rem 0 0.15rem;
+  font-size: 0.9rem;
+}
+
+.score-section .score-form input {
+  width: 4rem;
+  padding: 0.25rem;
+}
+
+.score-section .score-actions {
+  margin-top: 0.75rem;
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.score-section .score-actions button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  border-radius: 4px;
+  border: 1px solid #333;
+  background: #fff;
+}
+
+.score-section .score-actions button.primary {
+  background: #1a4d2e;
+  color: #fff;
+  border-color: #1a4d2e;
+}
+
+.leaderboard-item {
+  font-size: 0.95rem;
+}
+
+.leaderboard-item .score {
+  color: #1a4d2e;
+  font-weight: 600;
+}

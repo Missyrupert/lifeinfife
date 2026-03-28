@@ -1,3 +1,4 @@
 node_modules/
+web/node_modules/
 data.json
 seen.json

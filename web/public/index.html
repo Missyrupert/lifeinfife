@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Life in Fife</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>Life in Fife</h1>
+    <p class="tagline">Fife listings, quick shortlist, manual scores</p>
+  </header>
+
+  <main>
+    <section class="actions">
+      <button type="button" id="fetchBtn">Fetch Properties</button>
+      <p id="fetchStatus" class="status" aria-live="polite"></p>
+    </section>
+
+    <section>
+      <h2>Top Picks Today</h2>
+      <div id="picksList" class="list"></div>
+    </section>
+
+    <section id="scoreSection" class="score-section hidden">
+      <h2>Score Property</h2>
+      <div id="scoreFormWrap"></div>
+    </section>
+
+    <section>
+      <h2>Leaderboard</h2>
+      <p id="leaderboardStatus" class="status" aria-live="polite"></p>
+      <div id="leaderboardList" class="list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
